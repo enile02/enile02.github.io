@@ -1,0 +1,12 @@
+article {
+    background-color: rgba(9, 131, 131, 0.315);
+    position: relative;
+}
+
+article h1 {
+    color: rgba(163, 182, 54, 0.801);
+}
+
+article > h1 {
+    color: rgb(7, 97, 97);
+}
