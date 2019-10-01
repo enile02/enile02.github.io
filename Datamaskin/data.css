@@ -10,3 +10,15 @@ article h1 {
 article > h1 {
     color: rgb(7, 97, 97);
 }
+
+#intel {
+    width: 300px;
+}
+
+#AMD {
+    width: 300px;
+}
+
+#ARM {
+    width: 300px;
+}

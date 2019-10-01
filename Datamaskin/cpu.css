@@ -1,0 +1,229 @@
+.firkant {
+    line-height: 2px;
+    text-align: center;
+}
+  
+#cpu {
+    border: solid black 3px;;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 150px;
+    top: 110px;
+    background-color: rgb(253, 242, 230);
+    border-radius: 10px;
+}
+
+#controll {
+    border: solid black 2px;
+    width: 102px;
+    height: 50px;
+    position: absolute;
+    left: 101px;
+    top: 30px;
+    background-color: rgb(162, 203, 250);
+}
+
+#prosessor {
+    border: solid black 3px;
+    left: 55px;
+    top: 60px;
+    width: 190px;
+    height: 190px;
+    background-color: rgb(255, 254, 209);
+    position: relative;
+    border-radius: 10px;
+}
+
+#registers {
+    left: 45px;
+    top: 40px;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    background-color: rgb(162, 203, 250);
+    border: solid black 2px;
+}
+
+#alu {
+    left: 45px;
+    bottom: 15px;
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    background-color: rgb(162, 203, 250);
+    border: solid black 2px;
+}
+
+#memory {
+    border: solid black 2px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 434px;
+    left: 264px;
+    background-color: rgb(162, 203, 250);
+}
+
+#input {
+    border: solid black 2px;
+    width: 75px;
+    height: 50px;
+    top: 337px;
+    left: 60px;
+    background-color: rgb(162, 203, 250);
+    position: absolute;;
+
+}
+
+#output {
+    border: solid black 2px;
+    width: 75px;
+    height: 50px;
+    top: 337px;
+    left: 485px;
+    background-color: rgb(162, 203, 250);
+    position: absolute;
+}
+
+#instructions {
+    left: 212px;
+    top: 55px;
+    position: absolute;
+}
+
+.pil {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 0;
+}
+.oh {
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+}
+
+.ov {
+    border-top: solid 2px red;
+    border-left: solid 2px red;
+}
+
+.ohnv {
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.ovnh {
+    border-top: solid 2px red;
+    border-left: solid 2px red;
+    border-bottom: solid 2px red;
+}
+.o {
+    border-top: solid 2px black;
+}
+
+div.pil:nth-child(1) {
+    left: 368px;
+    top: 160px;
+    width: 160px;
+    height: 175px;
+}
+
+div.pil:nth-child(2) {
+    left: 100px;
+    top: 160px;
+    width: 160px;
+    height: 175px;
+}
+
+div.pil:nth-child(3) {
+    left: 368px;
+    top: 185px;
+    width: 72px;
+    height: 295px;
+}
+
+div.pil:nth-child(4) {
+    left: 368px;
+    top: 380px;
+    width: 55px;
+    height: 65px;
+}
+
+div.pil:nth-child(5) {
+    left: 368px;
+    top: 280px;
+    width: 25px;
+    height: 70px;
+}
+
+div.pil:nth-child(6) {
+    left: 170px;
+    top: 170px;
+    width: 90px;
+    height: 310px;
+}
+
+div.pil:nth-child(7) {
+    left: 185px;
+    top: 180px;
+    width: 75px;
+    height: 170px;
+}
+
+div.pil:nth-child(8) {
+    left: 200px;
+    top: 190px;
+    width: 60px;
+    height: 75px;
+}
+
+div.pil:nth-child(9) {
+    left: 235px;
+    top: 290px;
+    width: 29px;
+    height: 40px;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+div.pil:nth-child(10) {
+    left: 200px;
+    top: 380px;
+    width: 62px;
+    height: 65px;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+div.pil:nth-child(11) {
+    left: 137px;
+    top: 365px;
+    width: 129px;
+    height: 65px;
+}
+
+div.pil:nth-child(12) {
+    left: 366px;
+    top: 365px;
+    width: 120px;
+    height: 65px;
+}
+
+div.pil:nth-child(13) {
+    left: 10px;
+    top: 365px;
+    width: 50px;
+    height: 65px;
+}
+
+div.pil:nth-child(14) {
+    left: 562px;
+    top: 365px;
+    width: 50px;
+    height: 65px;
+}
