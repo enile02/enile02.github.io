@@ -9,31 +9,36 @@
 </head>
 <body>
     <div class="firkant" id="cpu">
-            <div id="instructions">Instructions</div>
+        <div id="instructions">Instructions</div>
         <p>CPU</p>
-        <div class="firkant" id="controll">
+
+        <div class="firkant" id="controll" data-info="Controll unit">
             <p>Control</p>
             <p>Unit</p>
         </div>
+
         <div class="firkant" id="prosessor">
             <p>Processor</p>
-            <div class="firkant" id="registers">
+            <div class="firkant" id="registers" data-more="register"
+            data-info="Prosessorens arbeidsminne, typisk 8 bit for tidlige CPUer, nå 64 bit.">
                 <p>Registers</p>
             </div>
-            <div class="firkant" id="alu">
+
+            <div class="firkant" id="alu" data-info="Beregninger og logikk">
                 <p>Combinational</p>
                 <p>Logic</p>
             </div>
+
         </div>
     </div>
-    <div class="firkant" id="memory">
+    <div class="firkant" id="memory" data-info="RAM">
        <p>Main</p>
        <p>Memory</p>
     </div>
-    <div class="firkant" id="input">
+    <div class="firkant" id="input" data-info="Keyboard, mus, nettverk">
         <P>Input</P>
     </div>
-    <div class="firkant" id="output">
+    <div class="firkant" id="output" data-info="Skjerm, nettverk">
         <p>Output</p>
     </div>
 

@@ -1,6 +1,6 @@
 article {
-    background-color: rgba(9, 131, 131, 0.315);
     position: relative;
+    margin-right: 50%;
 }
 
 article h1 {
@@ -21,4 +21,26 @@ article > h1 {
 
 #ARM {
     width: 300px;
+}
+
+body {
+    background-color: rgba(9, 131, 131, 0.315);
+}
+
+table, th, td {
+    border: solid black 2px;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(201, 231, 201);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgba(137, 43, 226, 0.61);
+}
+
+thead {
+    background-color: darksalmon;
 }
