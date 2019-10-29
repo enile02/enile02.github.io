@@ -6,11 +6,56 @@
 */
 #intro {
     position: relative;
-    background-color: rgba(76, 187, 231, 0.562);
+    background-color: rgba(76, 187, 231, 0.336);
     border: solid black;
-    height: 15vh;
-   
+    height: 100px;
+    
 }
+
+#tree {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    background-image: url(tree.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 18vw;
+    top: 5px;
+}
+
+#tree2 {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    background-image: url(tree2.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 25vw;
+    top: 10px;
+}
+
+#house {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url(house.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 3vw;
+    bottom: -10px;
+}
+
+#birds {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url(birds.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 3vw;
+    bottom: -10px;
+    animation: fly 17s infinite linear;
+} 
 
 #grass {
     position: absolute;
@@ -23,37 +68,83 @@
 
 #sol {
     position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    background-image: url(sun.gif);
+    background-size: contain;
     left: 5px;
     top: 5px;
+}
+
+#buisnessman {
+    position: absolute;
+    height: 63px;
+    width: 50px;
+    background-image: url(buisnessman.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: walk 50s infinite linear;
+}
+
+#Walkingman {
+    height: 80px;
+    width: 70px;
+    background-image: url(Walkingman.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50px;
+    top: 30px;
+    position: absolute;
+    animation: walk 23s infinite linear;
+}
+
+#stroller {
+    height: 40px;
+    width: 70px;
+    background-image: url(stroller.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+    animation: stroller 23s infinite linear;
 }
 
 #runningwoman {
     position: absolute;
     height: 70px;
     width: 50px;
-    left: 50px;
     background-image: url(runningwoman.gif);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: run 30s infinite linear;
+    animation: run 15s infinite linear;
 }
 
 @keyframes run {
-    0% {left: -2vw; bottom: 0px}
-    100% {left: 230vw; bottom: 0px;}
+    0% {left: -3%; bottom: 0px}
+    100% {left: 100%; bottom: 0px;}
+}
+
+@keyframes walk {
+    0% {left: 101%; bottom: 0px}
+    100% {left: -8%; bottom: 0px;}
+}
+
+@keyframes stroller {
+    0% {left: 100%; bottom: 0px}
+    100% {left: -9%; bottom: 0px;}
+}
+
+@keyframes fly {
+    0% { left: 100%; bottom: 15px;}
+    50% { left: 50%; bottom: -30px;}
+    100% {left: -10%; bottom: 20px;}
 }
 
 h1 {
     text-align: center;
     position: relative;
     }
-
-
-
 
 h2 {
     text-align: center
@@ -66,6 +157,7 @@ main {
 }
 
 #meny {
+    z-index: 100;
     position: fixed;
     top:-16px;
     left: 0;
@@ -88,7 +180,7 @@ main {
 
 #meny li:hover {
     background-color: mistyrose;
-    transition: 0.8s;
+    transition: 1s;
 }
 #meny li:hover a:visited,
 #meny li:hover a,
@@ -99,8 +191,8 @@ main {
 #meny a {color: black}
 
 article {
-    min-height: 90vh;
-   border: solid black 1px;
+    min-height: 10vh;
+    /*border: solid black 1px;*/
     margin: 1em;
 }
 
@@ -113,11 +205,13 @@ table, th, td {
 tr:nth-child(odd){
     background-color:white;
    }
-   tr:nth-child(even){
-     background-color: lavenderblush;
+
+tr:nth-child(even){
+    background-color: lavenderblush;
    }
-   th{
-       background-color: lavenderblush;
+
+th {
+    background-color: lavenderblush;
    }
 
 #bicepscurl {
@@ -165,8 +259,72 @@ tr:nth-child(odd){
     background-repeat: no-repeat;
 }
 
+#russiantwist {
+    height: 50vh;
+    width: 50vh;
+    background-image: url(russiantwist.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#roing {
+    height: 50vh;
+    width: 50vh;
+    background-image: url(Roing.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nedtrekk {
+    height: 40vh;
+    width: 50vh;
+    background-image: url(nedtrekk.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sumo {
+    height: 35vh;
+    width: 50vh;
+    background-image: url(sumo.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gif {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+}
+#trainingwoman {
+    height: 35vh;
+    width: 50vh;
+    background-image: url(trainingwoman.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left:50vw;
+    top: 0px;
+    position: absolute;
+}
+
+#runningwoman2 {
+    height: 35vh;
+    width: 50vh;
+    background-image: url(runningwoman2.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left:12vw;
+    top: 0px;
+    position: absolute;
+}
+
 footer {
-    background-color: green;
     position: relative;
     border: solid black;
     
@@ -196,7 +354,7 @@ ul {
     background-position: center;
     min-height: 200px;
     background-repeat: no-repeat;
-    filter: grayscale(80%);
+    filter: grayscale(0%);
     flex: 1;
     transition: 2s;
 }
@@ -229,19 +387,19 @@ div.bilde:nth-child(5) {
 }
 
 div.bilde:nth-child(6) {
-    background-image: url("bilder/b2.jpg");
+    background-image: url("russiantwist.jpg");
 }
 
 div.bilde:nth-child(7) {
-    background-image: url("bilder/b3.jpg");
+    background-image: url("Roing.jpg");
 }
 
 div.bilde:nth-child(8) {
-    background-image: url("bilder/b4.jpg");
+    background-image: url("nedtrekk.png");
 }
 
 div.bilde:nth-child(9) {
-    background-image: url("bilder/b1.jpg");
+    background-image: url("sumo.jpg");
 }
 
 div.bilde:nth-child(10) {
