@@ -2,8 +2,18 @@
     background-color: red;
     border: solid black;
     position: relative;
+}*/
+a {
+    color:blue;
 }
-*/
+
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    transition: 0.3s;
+}
 #intro {
     position: relative;
     background-color: rgba(76, 187, 231, 0.336);
@@ -179,13 +189,14 @@ main {
 }
 
 #meny li:hover {
-    background-color: mistyrose;
+    background-color: rgb(243, 184, 178);
     transition: 1s;
 }
-#meny li:hover a:visited,
+
 #meny li:hover a,
 #meny li a:hover {
-    color:black;
+    color:white;
+    transition: 1s;
 }
 
 #meny a {color: black}
@@ -207,11 +218,11 @@ tr:nth-child(odd){
    }
 
 tr:nth-child(even){
-    background-color: lavenderblush;
+    background-color: rgb(243, 184, 178);
    }
 
 th {
-    background-color: lavenderblush;
+    background-color: rgb(243, 184, 178);
    }
 
 #bicepscurl {
